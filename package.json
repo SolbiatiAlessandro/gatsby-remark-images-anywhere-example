@@ -1,0 +1,33 @@
+{
+  "name": "gatsby-remark-images-anywhere-remark-custom-component-lazy-load",
+  "private": true,
+  "description": "`gatsby-image` like features for remote images in markdown body.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+  },
+  "dependencies": {
+    "@charlietango/use-native-lazy-loading": "1.6.1",
+    "gatsby": "^2.13.73",
+    "gatsby-plugin-sharp": "2.2.20",
+    "gatsby-remark-component": "1.1.3",
+    "gatsby-remark-images-anywhere": "1.0.0",
+    "gatsby-source-filesystem": "2.1.21",
+    "gatsby-transformer-remark": "2.6.21",
+    "gatsby-transformer-sharp": "2.2.13",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-intersection-observer": "8.24.2",
+    "rehype-react": "4.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "keywords": []
+}

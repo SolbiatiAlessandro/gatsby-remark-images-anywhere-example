@@ -1,0 +1,14 @@
+body {
+  background: #f3f3f3;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+img {
+  max-width: 100%;
+  font-size: 0; /* hides alt text */
+}
